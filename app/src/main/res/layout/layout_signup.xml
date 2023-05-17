@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4D80D5" />
+
+    <RelativeLayout
+        android:id="@+id/lot"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:src="@drawable/splashlogo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lobt"
+        android:layout_below="@+id/lot"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_bo_vien">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:padding="15dp"
+                android:src="@drawable/profile"
+                android:tint="#fff" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtLayoutNameSignUp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="63dp"
+                android:textSize="30sp"/>
+
+            <EditText
+                android:id="@+id/edtnamesignup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="63dp"
+                android:background="#00FFFFFF"
+                android:gravity="center_vertical"
+                android:hint="@string/name"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_bo_vien">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:padding="15dp"
+                android:src="@drawable/email"
+                android:tint="#fff" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtLayoutEmailSignUp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="63dp"
+                android:textSize="30sp"/>
+            <EditText
+                android:id="@+id/edtemailsignup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="63dp"
+                android:background="#00FFFFFF"
+                android:gravity="center_vertical"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_bo_vien">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:padding="15dp"
+                android:src="@drawable/locked"
+                android:tint="#fff" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtLayoutPassSignUp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="63dp"
+                android:textSize="30sp"/>
+            <EditText
+                android:id="@+id/edtpasssignup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="63dp"
+                android:background="#00FFFFFF"
+                android:gravity="center_vertical"
+                android:hint="@string/pass"
+                android:inputType="textPassword"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_bo_vien">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:padding="15dp"
+                android:src="@drawable/locked"
+                android:tint="#fff" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtLayoutPass2SignUp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="63dp"
+                android:textSize="30sp"/>
+            <EditText
+                android:id="@+id/edtpass2signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="63dp"
+                android:background="#00FFFFFF"
+                android:gravity="center_vertical"
+                android:hint="@string/pass2"
+                android:inputType="textPassword"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lobt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnSingUp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/bg_bo_btn"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:text="@string/btnSignUp"
+            android:textAllCaps="false"
+            android:layout_height="50dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingBottom="10dp"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/txtlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:text="@string/btnLogin"/>
+            <TextView
+                android:id="@+id/forgetpasssignup"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_alignParentRight="true"
+                android:textColor="#fff"
+                android:text="@string/notAcc"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppReadingMangav2</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="pass2">Confirm Your Password</string>
+    <string name="started">Login</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="btnLogin">Log In</string>
+    <string name="name">Name</string>
+    <string name="notAcc" translatable="false">I forget password</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_list">List</string>
+    <string name="title_category">Category</string>
+    <string name="title_account">Account</string>
+    <string name="reset">Reset Password</string>
+    <string name="oldpassedit">Old Password</string>
+    <string name="passedit">New Password</string>
+    <string name="pass2edit">New Password</string>
+    <string name="pass2edit2">Confirm New Password</string>
+    <string name="comment">Add a comment</string>
+</resources>
